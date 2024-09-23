@@ -3,7 +3,7 @@ my tmux config
 
 
 ## copy the content into your ~/.tmux.conf
-
+```
 # List of plugins
 set -g default-terminal "screen-256color"
 # Set status bar position to top
@@ -80,3 +80,4 @@ set -g status-interval 1                       # Refresh the status line every s
 
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 run '~/.tmux/plugins/tpm/tpm'
+```
